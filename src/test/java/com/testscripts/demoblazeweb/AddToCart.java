@@ -18,7 +18,7 @@ import com.objectrepo.demoblazeweb.Homepage;
 @Listeners(EventList.class)// add the @Listeners just above the class becouse to provide the instruction
 //By adding the @Listeners annotation, you ensure that the listener(s) are automatically applied to all tests in the class
 public class AddToCart extends Base {
-	//Add TestNG Here
+	
 @Test
 public void addToCartTest() {
 	test=extent.createTest("Add product to the cart");// this "test" will be available in the base class
