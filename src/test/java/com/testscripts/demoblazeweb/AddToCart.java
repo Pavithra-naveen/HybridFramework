@@ -45,7 +45,7 @@ public void addToCartTest() {
 	alt.accept();
 	test.pass("Handeled alert");
 	test.pass("Added to cart");
-	Assert.fail();//if exception is trown on test failure method will be exceuted then screenshot will be taken then abd attach to theExtent report
+	//Assert.fail();//if exception is trown on test failure method will be exceuted then screenshot will be taken then abd attach to theExtent report
 	//cu.captureScreenshot(driver);//to take screenshot
 	hp.getCartLinktext().click();
 	try {
